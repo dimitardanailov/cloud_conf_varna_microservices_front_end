@@ -4,6 +4,9 @@
 /.sass-cache
 /bower_components
 
+# Vagrant
+.vagrant/
+
 
 # https://github.com/github/gitignore/blob/master/Global/OSX.gitignore
 .DS_Store
@@ -31,3 +34,12 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Vim 
+# https://github.com/github/gitignore/blob/master/Global/Vim.gitignore
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
