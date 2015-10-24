@@ -1,0 +1,17 @@
+<div class="jumbotron">
+  <h1>Cloud Conf!</h1>
+  <p class="lead">
+    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
+  </p>
+</div>
+
+<div class="row marketing">
+  Remote URL: <a href="http://cloudconfvarnamicroservices.azurewebsites.net/api/matches" target="_blank">http://cloudconfvarnamicroservices.azurewebsites.net/api/matches</a>
+  <div ng-repeat="match in matches">
+    <h4> 
+      {{ match.HomeTeam }} {{ match.HomeTeamResult }} 
+      - 
+      {{ match.AwayTeamResult }} {{ match.AwayTeam }}
+    </h4>
+  </div>
+</div>
