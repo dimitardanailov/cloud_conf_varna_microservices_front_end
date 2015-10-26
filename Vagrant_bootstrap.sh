@@ -52,8 +52,8 @@ echo 'Installing grunt'
 sudo npm install -g grunt-cli
 
 echo 'Installing imagemin'
-# sudo npm install --save imagemin
-# sudo npm install --save imagemin-optipng
+sudo npm install --save imagemin
+sudo npm install --save imagemin-optipng
 
 echo 'Buld grunt production'
 grunt build
